@@ -1,4 +1,32 @@
+body {
+    background-image: url("background.jpg");
+    max-width: 90%;
+    margin: auto;
+    /*
+    background: -webkit-linear-gradient(22deg, rgb(250, 235, 215), rgb(250, 224, 177));
+    background: linear-gradient(22deg, rgb(250, 235, 215), rgb(250, 224, 177));
+    */
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    font-size: 17px;
+    color: #0e1f42;
+}
+
+a {
+    color: blue;
+}
+
+a:visited {
+    color: hotpink;
+}
+
+a:hover {
+    color: yellowgreen;
+}
+
 table {
-    border-collapse: collapse;
     border: 1px solid
 }
