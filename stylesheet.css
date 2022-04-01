@@ -1,11 +1,14 @@
 body {
-    background-image: url("background.jpg");
-    max-width: 90%;
-    margin: auto;
-    /*
     background: -webkit-linear-gradient(22deg, rgb(250, 235, 215), rgb(250, 224, 177));
     background: linear-gradient(22deg, rgb(250, 235, 215), rgb(250, 224, 177));
-    */
+    /* J'ai mis l'étape couleur avant l'étape image, vu que les deux s'annulent, j'ai placé la partie couleur
+    avant la partie image pour que cette dernière l'emporte.
+    "In this case, the last one will be taken into account (hence the term "cascading")." */
+    background-image: url("background.jpg");
+    background-position: bottom right;
+    background-size: cover;
+    max-width: 90%;
+    margin: auto;
 }
 
 p {
@@ -27,6 +30,94 @@ a:hover {
     color: yellowgreen;
 }
 
+blockquote {
+    width: 50%;
+    margin: auto;
+    font-size: 160%;    
+    background-color: #e7e7e7;
+    border-left-style: groove;
+    border-color: firebrick;
+    padding-left: 30px; 
+    margin-top: 80px;
+    margin-bottom: 80px;
+    /* Or maybe I should have done 40 / 40 for the margin ? */
+}
+
 table {
     border: 1px solid
 }
+
+tr:nth-child(even) {
+    background-color: grey;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+
+header > h1 {
+    background-color: #dede61;
+    width: 34%;
+}
+
+.villagers {
+    border-left-style: dotted;
+    border-color: orangered;
+}
+
+.farmer {
+    border-left-style: dotted;
+    border-color: blue;
+}
+
+.good {
+    text-transform: uppercase;
+    color: green;
+}
+
+.bad {
+    text-transform: uppercase;
+    color: firebrick;
+}
+
+li.one {
+    display: table;
+    padding-right: 2%;
+    background-image: url("bien.png");
+    background-repeat: no-repeat;
+    background-size: 1.2em;
+    background-position: right;
+}
+
+li.two {
+    display: table;
+    padding-right: 2%;
+    background-image: url("mal.png");
+    background-repeat: no-repeat;
+    background-size: 1.2em;
+    background-position: right;
+}
+
+li.three {
+    display: table;
+    padding-right: 2%;
+    background-image: url("chat.png");
+    background-repeat: no-repeat;
+    background-size: 1.2em;
+    background-position: right;
+}
+
+li.four {
+    display: table;
+}
+
+p:first-of-type {
+    font-weight: bold;
+}
+
+img {
+    
+}
+
+
