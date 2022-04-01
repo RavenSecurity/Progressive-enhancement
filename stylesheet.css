@@ -116,8 +116,22 @@ p:first-of-type {
     font-weight: bold;
 }
 
-img {
-    
+section {
+    display: flex;
+    flex-direction: column;
 }
 
+.row {
+    display: flex;
+  }
 
+  img {
+    margin-right:10px;
+    width: 370px;
+  }
+
+.container {
+      display: flex;
+      flex-direction: column;
+      justify-content: ;
+  }
