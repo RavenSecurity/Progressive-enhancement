@@ -12,7 +12,7 @@ body {
 }
 
 p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Open Sans', sans-serif;
     letter-spacing: 1px;
     font-size: 17px;
     color: #0e1f42;
@@ -130,11 +130,7 @@ section {
   }
   
   .container {
-    justify-content: space-between;
-  }
-
-  .badge {
-
+    justify-content: space-around;
   }
 
   .dribble {
