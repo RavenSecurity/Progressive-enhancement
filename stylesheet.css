@@ -4,7 +4,7 @@ body {
     /* J'ai mis l'étape couleur avant l'étape image, vu que les deux s'annulent, j'ai placé la partie couleur
     avant la partie image pour que cette dernière l'emporte.
     "In this case, the last one will be taken into account (hence the term "cascading")." */
-    background-image: url("background.jpg");
+    background-image: url("./img/background.jpg");
     background-position: bottom right;
     background-size: cover;
     max-width: 90%;
@@ -84,7 +84,7 @@ header > h1 {
 li.one {
     display: table;
     padding-right: 2%;
-    background-image: url("bien.png");
+    background-image: url("./img/bien.png");
     background-repeat: no-repeat;
     background-size: 1.2em;
     background-position: right;
@@ -93,7 +93,7 @@ li.one {
 li.two {
     display: table;
     padding-right: 2%;
-    background-image: url("mal.png");
+    background-image: url("./img/mal.png");
     background-repeat: no-repeat;
     background-size: 1.2em;
     background-position: right;
@@ -102,7 +102,7 @@ li.two {
 li.three {
     display: table;
     padding-right: 2%;
-    background-image: url("chat.png");
+    background-image: url("./img/chat.png");
     background-repeat: no-repeat;
     background-size: 1.2em;
     background-position: right;
